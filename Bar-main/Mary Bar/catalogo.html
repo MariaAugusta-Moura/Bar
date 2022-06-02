@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<meta>
+<body style="background-image: url('img/fundo.jpg'); " >
+<meta>    
+    <h1 style="color: white; text-align: center; margin-top: 100px;">Catálogo</h1>
+    <div>
+        <h2 style="color: white;">Gin Tonica</h2>
+        <img src="img/bebida.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <img src="img/gin1.jpg" alt="foto" style="height: 350px; width: 350px; ">
+        <img src="img/gin3.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <h3 style="color: white;">Tanqueray - R$ 150.00 </h3>
+      
+        <h2 style="color: white;"> Espulmante </h2>
+        <img src="img/espul.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <img src="img/es1.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <img src="img/es3.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <h3 style="color: white;"> San Martin - R$ 40.00 </h3>
+        <h3 style="color: white;"> Moscatel - R$ 50.00 </h3>
+        <h3 style="color: white;"> Brut Rose - R$ 60.00 </h3>
+    
+        <h2 style="color: white;"> Whisky </h2>
+        <img src="img/whisky.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <img src="img/w2.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <img src="img/w3.jpg" alt="foto" style="height: 350px; width: 300px; ">
+        <h3 style="color: white;"> Old Par 12 anos- R$ 140.00 </h3>
+        <h3 style="color: white;"> Black Label - R$ 150.00 </h3>
+  
+        <h2 style="color: white;"> Martini </h2>
+        <img src="img/martine.jpg" alt="foto" style="height: 300px; width: 350px; ">
+        <img src="img/m2.jpg" alt="foto" style="height: 300px; width: 350px; ">
+        <img src="img/m1.jpg" alt="foto" style="height: 300px; width: 350px; ">
+        <h3 style="color: white;">Vermouth - R$ 50.00 </h3>
+    
+        <h2 style="color: white;"> Tequila </h2>
+        <img src="img/tequila.jpg" alt="foto" style="height: 350px; width: 350px; ">
+        <img src="img/t2.jpg" alt="foto" style="height: 350px; width: 350px;">
+        <img src="img/teq4.jpg"  id="2" alt="foto" style="height: 350px; width: 350px; display: none;">
+        <img src="img/t1.jpg" id="1" alt="foto" style="height: 350px; width: 350px">
+        <h3 style="color: white;"> Jose Cuervo - R$ 130.00 </h3>
+
+        
+    
+    </div>
+    
+      </form>
+      <div style="text-align:center; margin-top: 150px; border: 10px solid whitesmoke; width: 350px; height: 400px; margin-left:550px;" >  
+   
+        <label style="margin-top:60px; color: rgb(255, 255, 255); font-size: 40px;">Cadastramento</label>
+        
+        <form method="get" action= "meu_callback">
+        <label style="color: white">Produto </label>
+        <br>
+        <input type="cadastro" class="form-control" id="Cadastramento de Drink" placeholder="Cadastramento de Drink" style="width: 196px;">
+        <br>
+        <label style="color: white;">Preço </label>
+        <br>
+        <input type="number" class="form-control" id="Preço do Drink" placeholder="Preço do Drink" style="width: 196px;" >
+        <br>
+
+        <button onclick="deletar()" class="btn btn-light"> <a href="#" onclick="document.getElementById('1').style.display='none'"> Deletar Drink</a></button>
+    
+    
+    <script>
+        function deletar(){
+            alert("deletado"); 
+        }
+        
+ function mostrar() {
+      var id = [document.getElementById("Cadastramento de Drink").value, document.getElementById("Preço do Drink").value];
+      alert(id);
+      
+    }
+    
+    </script>
+
+    <button onclick="adicionar()" class="btn btn-light"> <a href="#" onclick="document.getElementById('2').style.display='inline'">Adicionar Drink</a></button>
+    
+    <script>
+        function adicionar(){
+            alert("Adicionado"); 
+        }
+        
+    </script>
+    <button><a href="#" onclick="mostrar()" class="btn btn-light"> Cadastrar </a></button>
+    </form>
+</div>
+    </div>
+</body>
+</html>
