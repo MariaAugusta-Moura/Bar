@@ -1,0 +1,6 @@
+# Bar![WhatsApp Image 2022-06-05 at 17 43 39](https://user-images.githubusercontent.com/89417746/172070294-33563725-4f1b-47be-ab56-d02972710d56.jpeg)
+![WhatsApp Image 2022-06-05 at 17 44 11](https://user-images.githubusercontent.com/89417746/172070363-aa0e8a1b-b0d5-45e5-b958-0db5916aebc8.jpeg)
+![WhatsApp Image 2022-06-05 at 18 01 56](https://user-images.githubusercontent.com/89417746/172070442-eef152ef-b77a-421d-bfd9-4d6342b5cc8d.jpeg)
+![WhatsApp Image 2022-06-05 at 18 04 30](https://user-images.githubusercontent.com/89417746/172070564-b7a9dc35-57c2-40a2-bd4e-961306bf4d6c.jpeg)
+![WhatsApp Image 2022-06-05 at 18 07 40](https://user-images.githubusercontent.com/89417746/172070620-b39e5c7c-db3d-4c5b-a9ea-306ffd907ef1.jpeg)
+![WhatsApp Image 2022-06-05 at 18 09 03](https://user-images.githubusercontent.com/89417746/172070666-1c65fa97-f4b6-4064-8604-5759de2359a1.jpeg)
